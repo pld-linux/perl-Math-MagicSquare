@@ -4,8 +4,8 @@
 %bcond_with	tests	# do perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	MagicSquare
+%define		pdir	Math
+%define		pnam	MagicSquare
 Summary:	Math::MagicSquare Perl module - magic square checker
 Summary(pl):	Modu³ Perla Math::MagicSquare - sprawdzanie kwadratów magicznych
 Name:		perl-Math-MagicSquare
