@@ -2,7 +2,7 @@
 # Conditional build:
 # one test is completly broken
 %bcond_with	tests	# do perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	MagicSquare
@@ -11,7 +11,8 @@ Summary(pl):	Modu³ Perla Math::MagicSquare - sprawdzanie kwadratów magicznych
 Name:		perl-Math-MagicSquare
 Version:	2.04
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c9d5b59f9c3a9a8419dc92b02b14d698
