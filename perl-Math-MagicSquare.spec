@@ -1,16 +1,21 @@
+#
+# Conditional build:
+# one test is completly broken
+%bcond_with	tests	# do perform "make test"
+
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	MagicSquare
 Summary:	Math::MagicSquare - Magic Square Checker
 Summary(pl):	Modu³ Math::MagicSquare - sprawdzaj±cy kwadraty magiczne
 Name:		perl-Math-MagicSquare
-Version:	2.00
-Release:	2
+Version:	2.03
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1e106eff71114ec3f61aa20c3bc9addf
-BuildRequires:	perl-devel >= 5.6
+# Source0-md5:	21e6829f901f77e7e084b53464654856
+BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -49,11 +54,13 @@ stopni zgodnie z kierunkiem ruchu wskazówek zegara oraz metoda
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
