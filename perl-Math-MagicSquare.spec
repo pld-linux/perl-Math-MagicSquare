@@ -3,7 +3,7 @@ Summary:	Math-MagicSquare perl module
 Summary(pl):	Modu³ perla Math-MagicSquare
 Name:		perl-Math-MagicSquare
 Version:	1.40
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
