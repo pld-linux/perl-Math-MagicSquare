@@ -6,8 +6,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	MagicSquare
-Summary:	Math::MagicSquare - Magic Square Checker
-Summary(pl):	Modu³ Math::MagicSquare - sprawdzaj±cy kwadraty magiczne
+Summary:	Math::MagicSquare Perl module - magic square checker
+Summary(pl):	Modu³ Perla Math::MagicSquare - sprawdzanie kwadratów magicznych
 Name:		perl-Math-MagicSquare
 Version:	2.04
 Release:	1
