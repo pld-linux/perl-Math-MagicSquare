@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	MagicSquare
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math-MagicSquare perl module
 Summary(pl):	Modu³ perla Math-MagicSquare
 Name:		perl-Math-MagicSquare
 Version:	1.40
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Math-MagicSquare perl module.
 Modu³ perla Math-MagicSquare.
 
 %prep
-%setup -q -n Math-MagicSquare-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
