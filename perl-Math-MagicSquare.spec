@@ -47,7 +47,7 @@ stopni zgodnie z kierunkiem ruchu wskazówek zegara oraz metoda
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
