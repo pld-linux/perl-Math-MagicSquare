@@ -22,15 +22,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The first purpose of this PERL module is to help you to check your
+The first purpose of this Perl module is to help you to check your
 Square. Is it a Semimagic Square? Is it a Magic Square?
 
-The second purpose of this PERL module is to help you to print your
+The second purpose of this Perl module is to help you to print your
 Square. At the moment the method available is 'print' that prints the
 square on STDOUT and 'printhtml' that prints the square in HTML
 format.
 
-The third purpose of this PERL module is to help you to manipulate
+The third purpose of this Perl module is to help you to manipulate
 your Square. At the moment the available methods are 'rotation' that
 rotates your Square of 90 degree clockwise and 'reflection' that
 reflect your Square.
