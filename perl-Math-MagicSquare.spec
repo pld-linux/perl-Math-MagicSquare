@@ -4,8 +4,8 @@
 Summary:	Math::MagicSquare - Magic Square Checker
 Summary(pl):	Modu³ Math::MagicSquare - sprawdzaj±cy kwadraty magiczne
 Name:		perl-Math-MagicSquare
-Version:	1.40
-Release:	10
+Version:	2.00
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
