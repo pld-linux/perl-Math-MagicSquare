@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	MagicSquare
-Summary:	Math-MagicSquare perl module
-Summary(pl):	Modu³ perla Math-MagicSquare
+Summary:	Math::MagicSquare perl module
+Summary(pl):	Modu³ perla Math::MagicSquare
 Name:		perl-Math-MagicSquare
 Version:	1.40
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-MagicSquare perl module.
+Math::MagicSquare perl module.
 
 %description -l pl
-Modu³ perla Math-MagicSquare.
+Modu³ perla Math::MagicSquare.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
