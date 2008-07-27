@@ -10,7 +10,7 @@ Summary:	Math::MagicSquare Perl module - magic square checker
 Summary(pl.UTF-8):	Moduł Perla Math::MagicSquare - sprawdzanie kwadratów magicznych
 Name:		perl-Math-MagicSquare
 Version:	2.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
